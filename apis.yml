@@ -1,0 +1,203 @@
+aid: paradox-ai
+name: Paradox
+url: https://raw.githubusercontent.com/api-evangelist/paradox-ai/refs/heads/main/apis.yml
+description: >-
+  Paradox builds Olivia, a conversational AI assistant for high-volume hiring.
+  The platform is delivered as a suite of "Conversational" products - ATS, CRM,
+  Career Sites, Apply, Scheduling, and Events - and ships pre-built integrations
+  for Workday, SAP SuccessFactors, and Indeed plus an Open API for custom
+  partner integrations with systems like iCIMS, Greenhouse, and others.
+  Paradox is sales-led; APIs are made available to enterprise customers and
+  certified partners under contract rather than via a public self-serve
+  developer portal.
+kind: company
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Conversational AI
+  - Recruiting Automation
+  - High-Volume Hiring
+  - Chatbot
+  - ATS
+  - HR Tech
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis:
+  - aid: paradox-ai:olivia
+    name: Paradox Olivia Conversational AI
+    description: >-
+      Olivia is Paradox's conversational AI assistant that powers candidate
+      engagement, screening, scheduling, and onboarding across every Paradox
+      surface and partner integration.
+    humanURL: https://www.paradox.ai
+    baseURL: https://app.paradox.ai
+    tags:
+      - Conversational AI
+      - Assistant
+      - Chatbot
+    properties:
+      - type: Documentation
+        url: https://www.paradox.ai
+  - aid: paradox-ai:conversational-ats
+    name: Paradox Conversational ATS
+    description: >-
+      Mobile-first, conversational applicant tracking system aimed at
+      high-volume, frontline, and hourly hiring, with automation for frontline
+      hiring managers.
+    humanURL: https://www.paradox.ai/products
+    baseURL: https://app.paradox.ai
+    tags:
+      - ATS
+      - High-Volume Hiring
+      - Mobile
+    properties:
+      - type: Documentation
+        url: https://www.paradox.ai/products
+  - aid: paradox-ai:conversational-crm
+    name: Paradox Conversational CRM
+    description: >-
+      Talent CRM for finding, pipelining, and re-engaging qualified candidates
+      via conversational outreach.
+    humanURL: https://www.paradox.ai/products
+    baseURL: https://app.paradox.ai
+    tags:
+      - CRM
+      - Talent Pipeline
+      - Outreach
+    properties:
+      - type: Documentation
+        url: https://www.paradox.ai/products
+  - aid: paradox-ai:conversational-career-sites
+    name: Paradox Conversational Career Sites
+    description: >-
+      Dynamic, 24/7 conversational career sites that surface relevant jobs and
+      capture candidate interest through chat.
+    humanURL: https://www.paradox.ai/products
+    baseURL: https://app.paradox.ai
+    tags:
+      - Career Sites
+      - Conversational
+      - Employer Branding
+    properties:
+      - type: Documentation
+        url: https://www.paradox.ai/products
+  - aid: paradox-ai:conversational-apply
+    name: Paradox Conversational Apply
+    description: >-
+      Text- and chat-based applicant flow that screens candidates and captures
+      structured application data without traditional web forms.
+    humanURL: https://www.paradox.ai/products
+    baseURL: https://app.paradox.ai
+    tags:
+      - Apply
+      - Screening
+      - Text Recruiting
+    properties:
+      - type: Documentation
+        url: https://www.paradox.ai/products
+  - aid: paradox-ai:conversational-scheduling
+    name: Paradox Conversational Scheduling
+    description: >-
+      Automated interview scheduling across candidate and interviewer
+      calendars, including rescheduling and reminders, driven by Olivia.
+    humanURL: https://www.paradox.ai/products
+    baseURL: https://app.paradox.ai
+    tags:
+      - Scheduling
+      - Calendars
+      - Automation
+    properties:
+      - type: Documentation
+        url: https://www.paradox.ai/products
+  - aid: paradox-ai:conversational-events
+    name: Paradox Conversational Events
+    description: >-
+      Event management product for campus, hiring events, and open houses,
+      including registration, reminders, and follow-up automation.
+    humanURL: https://www.paradox.ai/products
+    baseURL: https://app.paradox.ai
+    tags:
+      - Events
+      - Campus
+      - Recruiting Events
+    properties:
+      - type: Documentation
+        url: https://www.paradox.ai/products
+  - aid: paradox-ai:paradox-for-workday
+    name: Paradox for Workday
+    description: >-
+      Productised integration that brings Olivia conversational hiring and
+      two-way SMS messaging directly into Workday recruiting.
+    humanURL: https://www.paradox.ai
+    baseURL: https://app.paradox.ai
+    tags:
+      - Workday
+      - Integration
+      - ATS
+    properties:
+      - type: Documentation
+        url: https://www.paradox.ai
+  - aid: paradox-ai:paradox-for-successfactors
+    name: Paradox for SAP SuccessFactors
+    description: >-
+      Productised integration that automates manual hiring tasks inside SAP
+      SuccessFactors recruiting workflows.
+    humanURL: https://www.paradox.ai
+    baseURL: https://app.paradox.ai
+    tags:
+      - SAP SuccessFactors
+      - Integration
+      - ATS
+    properties:
+      - type: Documentation
+        url: https://www.paradox.ai
+  - aid: paradox-ai:paradox-for-indeed
+    name: Paradox for Indeed
+    description: >-
+      Indeed Apply integration that converts Indeed-sourced candidates into
+      Paradox conversational hiring flows.
+    humanURL: https://www.paradox.ai
+    baseURL: https://app.paradox.ai
+    tags:
+      - Indeed
+      - Sourcing
+      - Apply
+    properties:
+      - type: Documentation
+        url: https://www.paradox.ai
+  - aid: paradox-ai:open-api
+    name: Paradox Open API
+    description: >-
+      Paradox's customer- and partner-facing Open API used to build custom
+      integrations with ATS, HRIS, and operational systems beyond the
+      productised connectors. Access is gated and provisioned under contract;
+      no public self-serve developer portal is published.
+    humanURL: https://www.paradox.ai
+    baseURL: https://app.paradox.ai
+    tags:
+      - Open API
+      - Integrations
+      - Partner API
+    properties:
+      - type: Documentation
+        url: https://www.paradox.ai
+common:
+  - type: Website
+    url: https://www.paradox.ai
+  - type: Products
+    url: https://www.paradox.ai/products
+  - type: Contact
+    url: https://www.paradox.ai/contact
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/paradox-ai/
+integrations:
+  - name: Workday
+  - name: SAP SuccessFactors
+  - name: Indeed
+  - name: iCIMS
+  - name: Greenhouse
+  - name: Oracle
+  - name: Taleo
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
