@@ -1,0 +1,13 @@
+generated: '2026-07-11'
+method: searched
+probe: true
+source: https://www.paradox.ai/legal/security
+url: https://www.paradox.ai/legal/security
+certifications:
+- SOC 2
+- ISO 27001
+evidence:
+- source: https://www.paradox.ai/legal/security
+  keywords:
+  - soc 2
+  - iso 27001

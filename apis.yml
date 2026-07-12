@@ -182,6 +182,12 @@ apis:
       - type: Documentation
         url: https://www.paradox.ai
 common:
+  - type: TrustCenter
+    url: security/paradox-ai-trust-center.yml
+  - type: DomainSecurity
+    url: security/paradox-ai-domain-security.yml
+  - url: https://www.paradox.ai/blog
+    type: Blog
   - type: Website
     url: https://www.paradox.ai
   - type: Products
