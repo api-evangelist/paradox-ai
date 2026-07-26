@@ -11,7 +11,19 @@ description: >-
   certified partners under contract rather than via a public self-serve
   developer portal.
 kind: company
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: free
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Free
+  confidence: medium
+  source:
+    - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/paradox-ai.png
 tags:
   - Conversational AI
   - Recruiting Automation
@@ -20,7 +32,7 @@ tags:
   - ATS
   - HR Tech
 created: '2026-05-23'
-modified: '2026-05-23'
+modified: '2026-07-25'
 specificationVersion: '0.19'
 apis:
   - aid: paradox-ai:olivia
@@ -64,20 +76,6 @@ apis:
       - CRM
       - Talent Pipeline
       - Outreach
-    properties:
-      - type: Documentation
-        url: https://www.paradox.ai/products
-  - aid: paradox-ai:conversational-career-sites
-    name: Paradox Conversational Career Sites
-    description: >-
-      Dynamic, 24/7 conversational career sites that surface relevant jobs and
-      capture candidate interest through chat.
-    humanURL: https://www.paradox.ai/products
-    baseURL: https://app.paradox.ai
-    tags:
-      - Career Sites
-      - Conversational
-      - Employer Branding
     properties:
       - type: Documentation
         url: https://www.paradox.ai/products
