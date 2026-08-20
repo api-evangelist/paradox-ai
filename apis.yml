@@ -28,6 +28,13 @@ tags:
   - Conversational AI
   - Recruiting Automation
   - High-Volume Hiring
+  - Chatbots
+  - ATS
+  - HR Tech
+tags_raw:
+  - Conversational AI
+  - Recruiting Automation
+  - High-Volume Hiring
   - Chatbot
   - ATS
   - HR Tech
@@ -44,6 +51,10 @@ apis:
     humanURL: https://www.paradox.ai
     baseURL: https://app.paradox.ai
     tags:
+      - Conversational AI
+      - Assistant
+      - Chatbots
+    tags_raw:
       - Conversational AI
       - Assistant
       - Chatbot
@@ -115,6 +126,10 @@ apis:
     humanURL: https://www.paradox.ai/products
     baseURL: https://app.paradox.ai
     tags:
+      - Event
+      - Campus
+      - Recruiting Events
+    tags_raw:
       - Events
       - Campus
       - Recruiting Events
@@ -173,6 +188,10 @@ apis:
     humanURL: https://www.paradox.ai
     baseURL: https://app.paradox.ai
     tags:
+      - OpenAPI
+      - Integration
+      - Partner API
+    tags_raw:
       - Open API
       - Integrations
       - Partner API
